@@ -294,10 +294,10 @@
       }
     }
   ],
-  "outputs": {
-    "fqdn": {
-      "value": "N/A",
-      "type": "string"
+ "outputs": {
+    "SiteFQDN": {
+      "type": "string",
+      "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',variables('applicationGatewayIp'))
+).dnsSettings.fqdn]"
     }
   }
-}
