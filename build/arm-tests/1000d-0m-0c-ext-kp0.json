@@ -21,7 +21,7 @@
 		"vNetName": {"value": "es-net"},
 		"vNetClusterSubnetName": {"value": "es-subnet"},
 		"vNetAppGatewaySubnetName": {"value": "es-app-gateway"},
-		"vNetLoadBalancerIp": {"value": "i172.16.128.4"},
+		"vNetLoadBalancerIp": {"value": "172.16.128.4"},
 		"vNetNewOrExisting": {"value":"new"},
 		"vNetExistingResourceGroup": {"value": ""},
 		"vNetNewAddressPrefix": {"value": "172.16.128.0/24"},
