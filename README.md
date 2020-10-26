@@ -893,7 +893,7 @@ Parameters such as <code>esHttpCertBlob</code> and <code>kibanaCertBlob</code> m
     }
     ```
 
-## License
+## License 
 
 This project is [MIT Licensed](https://github.com/elastic/azure-marketplace/blob/master/LICENSE.txt) and was originally forked from 
 the [Elasticsearch Azure quick start arm template](https://github.com/Azure/azure-quickstart-templates/tree/master/elasticsearch)
