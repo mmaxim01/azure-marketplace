@@ -1169,7 +1169,7 @@
     },
     "vNetName": {
       "type": "string",
-      "defaultValue": "es-net-dev",
+      "defaultValue": "es-net",
       "metadata": {
         "description": "Virtual Network Name"
       }
@@ -1197,7 +1197,7 @@
     },
     "vNetClusterSubnetName": {
       "type": "string",
-      "defaultValue": "es-subnet-dev",
+      "defaultValue": "es-subnet",
       "metadata": {
         "description": "Subnet name to use for Elasticsearch nodes"
       }
@@ -1211,7 +1211,7 @@
     },
     "vNetAppGatewaySubnetName": {
       "type": "string",
-      "defaultValue": "es-gateway-subnet-dev",
+      "defaultValue": "es-gateway-subnet",
       "metadata": {
         "description": "Subnet name to use for the Application Gateway. Required when selecting Application Gateway for load balancing"
       }
