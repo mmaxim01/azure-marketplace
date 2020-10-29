@@ -1183,14 +1183,14 @@
     },
     "vNetNewAddressPrefix": {
       "type": "string",
-      "defaultValue": "172.16.128.0/24",
+      "defaultValue": "10.126.182.0/24",
       "metadata": {
         "description": "The address prefix size to use for a New Virtual Network. Required when creating a new Virtual Network"
       }
     },
     "vNetLoadBalancerIp": {
       "type": "string",
-      "defaultValue": "172.16.128.4",
+      "defaultValue": "10.126.182.4",
       "metadata": {
         "description": "The static IP address for the internal load balancer. This must be an available IP address in the specified subnet"
       }
@@ -1204,7 +1204,7 @@
     },
     "vNetNewClusterSubnetAddressPrefix": {
       "type": "string",
-      "defaultValue": "172.16.128.0/25",
+      "defaultValue": "10.126.182.0/25",
       "metadata": {
         "description": "The address space of the subnet. Required when creating a new Virtual Network"
       }
@@ -1218,7 +1218,7 @@
     },
     "vNetNewAppGatewaySubnetAddressPrefix": {
       "type": "string",
-      "defaultValue": "172.16.128.128/28",
+      "defaultValue": "10.126.182.128/28",
       "metadata": {
         "description": "The address space of the Application Gateway subnet. Required when creating a new Virtual Network and selecting Application Gateway for load balancing"
       }
