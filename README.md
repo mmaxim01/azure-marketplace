@@ -503,12 +503,12 @@ value defined in the template.
 
   <tr><td>vNetNewAddressPrefix</td><td>string</td>
     <td>The address prefix when creating a new Virtual Network. <strong>Required when creating a new Virtual Network</strong>
-    </td><td><code>172.16.128.0/24</code></td></tr>
+    </td><td><code>10.126.182.0/24</code></td></tr>
 
   <tr><td>vNetLoadBalancerIp</td><td>string</td>
     <td>The internal static IP address to use when configuring the internal load balancer. Must be an available
     IP address on the provided <code>vNetClusterSubnetName</code>.
-    </td><td><code>172.16.128.4</code></td></tr>
+    </td><td><code>10.126.182.4</code></td></tr>
 
   <tr><td>vNetClusterSubnetName</td><td>string</td>
     <td>The name of the subnet to which Elasticsearch nodes will be attached.
@@ -518,7 +518,7 @@ value defined in the template.
   <tr><td>vNetNewClusterSubnetAddressPrefix</td><td>string</td>
     <td>The address space of the subnet.
     <strong>Required when creating a <code>new</code> Virtual Network</strong>
-    </td><td><code>172.16.128.0/25</code></td></tr>
+    </td><td><code>10.126.182.0/25</code></td></tr>
 
   <tr><td>vNetAppGatewaySubnetName</td><td>string</td>
     <td>Subnet name to use for the Application Gateway. 
@@ -529,7 +529,7 @@ value defined in the template.
   <tr><td>vNetNewAppGatewaySubnetAddressPrefix</td><td>string</td>
     <td>The address space of the Application Gateway subnet.
     <strong>Required when creating a <code>new</code> Virtual Network and selecting <code>gateway</code> for load balancing.</strong>
-    </td><td><code>172.16.128.128/28</code></td></tr>
+    </td><td><code>10.126.182.128/28</code></td></tr>
 
    <tr><td colspan="4" style="font-size:120%"><strong>Application Gateway related settings</strong></td></tr>
 
