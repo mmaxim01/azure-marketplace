@@ -652,15 +652,15 @@ to `es-subnet`.
 `vNetLoadBalancerIp`::
 The private IP address to use when configuring the internal load balancer.
 <<check-private-ip-address-availability, Must be an available IP address>> on
-the provided vNetClusterSubnetName. Defaults to `172.16.128.4`.
+the provided vNetClusterSubnetName. Defaults to `10.126.182.4`.
 
 When deploying a new virtual network, the following parameters also apply
 
 `vNetNewAddressPrefix`::
-The address space when creating a new virtual network. Defaults to `172.16.128.0/24`.
+The address space when creating a new virtual network. Defaults to `10.126.182.0/24`.
 
 `vNetNewClusterSubnetAddressPrefix`::
-The address space of the `vNetClusterSubnetName` subnet. Defaults to `172.16.128.0/25`.
+The address space of the `vNetClusterSubnetName` subnet. Defaults to `10.126.182.0/25`.
 
 When attaching to an existing resource group, the following parameter also applies
 
